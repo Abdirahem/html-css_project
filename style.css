@@ -31,6 +31,21 @@ body{
     display: flex;
     justify-content: flex-end;
 }
+.navigations a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+/* Change the color of links on hover */
+.navigations a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
 .navItems{
     margin-left: 20px;
